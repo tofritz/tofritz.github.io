@@ -1,3 +1,6 @@
 name: Tyler Fritz
 markdown: CommonMarkGhPages
-    extensions: ["superscript", "underline", "highlight", "smart"]
+redcarpet:
+  extensions: ["superscript", "underline", "highlight"]
+commonmark:
+  options: ["SMART"]
