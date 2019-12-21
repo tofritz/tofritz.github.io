@@ -1,16 +1,2 @@
 name: Tyler Fritz
 markdown: CommonMarkGhPages
-commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions:
-    [
-      "no_intra_emphasis",
-      "tables",
-      "autolink",
-      "strikethrough",
-      "with_toc_data",
-      "superscript",
-      "underline",
-      "highlight",
-      "smart",
-    ]
