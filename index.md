@@ -1,5 +1,5 @@
 ***
-                        a personal website: resume, portfolio, projects, and other miscellanea
+                          a personal website: resume, portfolio, projects, and other miscellanea
 ***
 
 _**resume**_:
@@ -31,4 +31,4 @@ thanks for visiting,
 
 ![alt-text](https://avatars2.githubusercontent.com/u/9016001?s=400&u=e577f5ffdde59e630b7d853734d1cb3817864fdf&v=4)
 
-tyler
+tyler :+1:
