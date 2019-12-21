@@ -1,2 +1,6 @@
 name: Tyler Fritz
-markdown: CommonMarkGhPages
+markdown: CommonMark
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions:
+    ["strikethrough", "autolink", "tasklist", "autolink", "table", "tagfilter"]
