@@ -1,6 +1,7 @@
 name: Tyler Fritz
 markdown: CommonMarkGhPages
-redcarpet:
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
   extensions:
     [
       "no_intra_emphasis",
