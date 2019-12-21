@@ -1,5 +1,15 @@
 name: Tyler Fritz
-markdown: redcarpet
+markdown: CommonMarkGhPages
 redcarpet:
-  extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data", "superscript", "underline", "highlight", "smart"]
-
+  extensions:
+    [
+      "no_intra_emphasis",
+      "tables",
+      "autolink",
+      "strikethrough",
+      "with_toc_data",
+      "superscript",
+      "underline",
+      "highlight",
+      "smart",
+    ]
