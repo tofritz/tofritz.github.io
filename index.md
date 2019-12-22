@@ -16,17 +16,13 @@ _**projects**_:
 -
 
 - [ ] have at least one git commit per day for a year
-    - another
-    - task
-        - [ ] will this work
-        - [x] or this
 - [ ] build out a fancier version of this website from scratch with the Bootstrap framework
 - [ ] become more familiar with the jekyll site-generating system
 - [ ] make some maps for the portfolio using some python modules (folium/bokeh) using [earth observatory](https://eonet.sci.gsfc.nasa.gov/what-is-eonet) or [city of austin](http://austintexas.gov/department/gis-and-maps/gis-data) data
 - [ ] make some gif timelapses using GDAL (need to find the video i watched on this)
 - [ ] try to do at least a semi-challenging python coding problem per week
 - [ ] shoot under 90 at my local golf course (~95 currently)
-- [x] learn `markdown` by making this site
+- [x] - learn `markdown` by making this site
 
 > "I once tested CommonMark extensions by block--quoting myself..." --- @tofritz
 
