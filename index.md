@@ -22,7 +22,7 @@ _**projects**_:
 - [ ] make some gif timelapses using GDAL (need to find the video i watched on this)
 - [ ] try to do at least a semi-challenging python coding problem per week
 - [ ] shoot under 90 at my local golf course (~95 currently)
-- [x] - learn `markdown` by making this site
+- [x] learn `markdown` by making this site
 
 > "I once tested CommonMark extensions by block--quoting myself..." --- @tofritz
 
