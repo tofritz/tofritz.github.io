@@ -1,0 +1,14 @@
+name: Tyler Fritz
+email: tyofritz@gmail.com
+github_username: tofritz
+
+title: a personal website
+description: >-
+  a place to document my thoughts, projects, and interests.
+baseurl: ""
+url: ""
+
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions:
+    ["strikethrough", "autolink", "tasklist", "autolink", "table", "tagfilter"]
