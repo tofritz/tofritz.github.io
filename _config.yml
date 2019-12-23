@@ -1,5 +1,0 @@
-name: Tyler Fritz
-commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions:
-    ["strikethrough", "autolink", "tasklist", "autolink", "table", "tagfilter"]
