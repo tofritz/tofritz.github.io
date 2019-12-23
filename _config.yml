@@ -1,5 +1,4 @@
 name: Tyler Fritz
-markdown: CommonMark
 commonmark:
   options: ["SMART", "FOOTNOTES"]
   extensions:
