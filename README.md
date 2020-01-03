@@ -1,7 +1,3 @@
----
-layout: default
-title: about
----
 
 a personal website
 ===
