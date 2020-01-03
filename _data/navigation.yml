@@ -1,5 +1,5 @@
 - name: blog
-  link: /
+  link: /blog
 
 - name: about
-  link: /about.html
+  link: /README
