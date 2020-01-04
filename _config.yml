@@ -8,6 +8,8 @@ description: >-
 baseurl: ""
 url: ""
 
+permalink: /:year/:month/:day/:title
+
 commonmark:
   options: ["SMART", "FOOTNOTES"]
   extensions:
