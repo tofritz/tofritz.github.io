@@ -3,7 +3,7 @@ layout: post
 title:  "my first post"
 author:  tyler
 date:   2019-12-23 16:35:26 -0600
-categories: practice
+categories: practice python
 ---
 
 ### Welcome

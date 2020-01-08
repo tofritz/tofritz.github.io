@@ -14,3 +14,7 @@ commonmark:
   options: ["SMART", "FOOTNOTES"]
   extensions:
     ["strikethrough", "autolink", "tasklist", "autolink", "table", "tagfilter"]
+
+kramdown:
+  syntax_highlighter_opts:
+    disable: true

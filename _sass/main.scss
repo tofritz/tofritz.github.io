@@ -1,5 +1,17 @@
-/* common options */
+/* sass color variables */
 
+$theme-color: #f5b428 !default;
+$theme-color-light: lighten($theme-color, 10%) !default;
+$theme-color-dark: darken($theme-color, 25%) !default;
+$theme-color-alt-a: #d14 !default;
+$theme-color-alt-b: #5adbff !default;
+$background-color: #222 !default;
+$background-color-light: lighten($background-color, 10%) !default;
+$background-color-dark: darken($background-color, 4%) !default;
+$font-color: #f3f3f3 !default;
+$date-color: #aaaaaa !default;
+
+/* common options */
 * {
   margin: 0;
   padding: 0;
@@ -8,13 +20,13 @@
 html,
 body {
   height: 100%;
+  background-color: $background-color;
 }
 
 body {
-  background-color: #222;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  color: #f3f3f3;
+  color: $font-color;
 }
 
 h1,
@@ -24,23 +36,36 @@ h4,
 h5,
 h6 {
   font-size: 100%;
+  margin: 1em 0;
 }
 
 h1 {
   margin-bottom: 1em;
+  text-align: center;
+  color: $theme-color;
 }
 
 p {
   margin: 1em 0;
+  line-height: 1.2em;
 }
 
 a {
-  color: #d14;
+  color: $theme-color-alt-a;
   text-decoration: none;
 }
 
+ol {
+  margin-left: 3em;
+}
+
+ol li {
+  margin: 1em 0;
+  line-height: 1.2em;
+}
+
 a:hover {
-  color: #f5b428;
+  color: $theme-color;
 }
 
 /* navigation bar */
@@ -48,7 +73,7 @@ a:hover {
 nav {
   margin: 1em auto 1em auto;
   width: 40em;
-  border: 0.05em solid #f3f3f3;
+  border: 0.05em solid $font-color;
   border-radius: 25px;
   padding: 0.2em 0.2em;
 }
@@ -58,14 +83,14 @@ nav a {
 }
 
 .current {
-  color: #f5b428;
+  color: $theme-color;
 }
 
 /* default */
 
 .default {
   text-align: justify;
-  width: 40em;
+  width: 50em;
   margin: 2em auto 2em auto;
   line-height: 1.5em;
 }
@@ -80,38 +105,17 @@ ul.blog li {
 }
 
 ul.blog span {
-  color: #aaaaaa;
+  color: $date-color;
   font-family: Monaco;
   font-size: 80%;
 }
 
 ul.task-list {
   list-style-type: none;
+  margin: 1em 0;
 }
 
-input[type="checkbox"] {
-  margin-right: 1em;
-}
-
-blockquote {
-  background: #5e5d5d;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
-}
-blockquote:before {
-  color: #b3b3b3;
-  font-size: 1em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-blockquote p {
-  display: inline;
-}
-
-/* img format */
+/* img format tags */
 
 img[src*="#thumbnail"] {
   width: 100px;
@@ -122,7 +126,7 @@ img[src*="#thumbnail"] {
 
 /* post */
 
-.post span {
+.post div#title span {
   color: #aaaaaa;
   font-family: Monaco;
   font-size: 80%;
@@ -135,5 +139,54 @@ img[src*="#thumbnail"] {
 
 .post div h1 {
   display: inline-block;
-  color: #f5b428;
+  color: $theme-color;
+}
+
+.post p {
+  line-height: 1.2em;
+}
+
+.post h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $theme-color-alt-b;
+}
+
+input[type="checkbox"] {
+  margin-right: 1em;
+}
+
+blockquote {
+  background: $background-color-light;
+  border-left: 10px solid $theme-color-light;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: $font-color;
+  line-height: 1.3em;
+  font-size: 90%;
+}
+blockquote:before {
+  font-size: 1em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+/* code formatting */
+
+code {
+  font-size: 70%;
+  font-family: Monaco, monospace;
+  border: 0.05em solid $font-color;
+  border-radius: 3px;
+  padding: 0.2em 0.5em;
+  color: #f1fa8c;
+  background-color: #282a36;
 }

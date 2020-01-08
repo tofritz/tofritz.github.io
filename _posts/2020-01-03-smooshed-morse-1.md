@@ -3,7 +3,7 @@ layout: post
 title:  "smooshed morse code - challenge 1 "
 author: tyler
 date:   2020-01-03 20:00:00 -0600
-categories: practice
+categories: practice python
 ---
 
 This challenge was taken from [this post](https://www.reddit.com/r/dailyprogrammer/comments/cmd1hb/20190805_challenge_380_easy_smooshed_morse_code_1/) and uses the [enable1 word list](https://raw.githubusercontent.com/dolph/dictionary/master/enable1.txt).
