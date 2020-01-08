@@ -2,13 +2,11 @@
 layout: post
 title:  "smooshed morse code - challenge 1 "
 author: tyler
-date:   2019-01-03 20:00:00 -0600
+date:   2020-01-03 20:00:00 -0600
 categories: practice
 ---
 
-This challenge was taken from [this post](https://www.reddit.com/r/dailyprogrammer/comments/cmd1hb/20190805_challenge_380_easy_smooshed_morse_code_1/).
-
-The challenges use the [enable1 word list](https://raw.githubusercontent.com/dolph/dictionary/master/enable1.txt).
+This challenge was taken from [this post](https://www.reddit.com/r/dailyprogrammer/comments/cmd1hb/20190805_challenge_380_easy_smooshed_morse_code_1/) and uses the [enable1 word list](https://raw.githubusercontent.com/dolph/dictionary/master/enable1.txt).
 
 ### Challenge Prompt
 
@@ -28,13 +26,15 @@ smorse("three") => "-.....-..."
 
 Note: decoding is ambiguous
 
-#### Challenges and Solutions
+#### Challenges
 
 1. The sequence `-...-....-.--.` is the code for four different words (`needing`, `nervate`, `niding`, `tiling`). Find the only sequence that's the code for 13 different words.
 2. `autotomous` encodes to `.-..--------------..-...,` which has 14 dashes in a row. Find the only word that has 15 dashes in a row.
 3. Call a word *perfectly balanced* if its code has the same number of dots as dashes. `counterdemonstrations` is one of two 21-letter words that's perfectly balanced. Find the other one.
 4. `protectorate` is 12 letters long and encodes to `.--..-.----.-.-.----.-..--.`, which is a palindrome (i.e. the string is the same when reversed). Find the only 13-letter word that encodes to a palindrome.
 5. `--.---.---.--` is one of five 13-character sequences that does not appear in the encoding of any word. Find the other four.
+
+#### Solution
 
 ```python
 import string

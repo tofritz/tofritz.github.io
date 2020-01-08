@@ -6,18 +6,18 @@ title: about
 a personal website
 ===
 
-_**resume**_:
+_**resume**_
 -
 
 the latest version can be found [here](https://app.box.com/s/u7oxc33fjrroewypys8ynn92knxzbxxs).
 
-_**portfolio**_:
+_**portfolio**_
 -
 
  i would suggest perusing my github repositories [example-work](https://github.com/tofritz/example-work) and [scripts](https://github.com/tofritz/scripts).
 if you're looking for a collection of finished map products, [here](https://github.com/tofritz/example-work/tree/master/Maps) is where you may find some produced with esri software.
 
-_**projects**_:
+_**projects**_
 -
 
 - [ ] have at least one git commit per day for a year
@@ -33,6 +33,6 @@ _**projects**_:
 
 thanks for visiting,
 
-![alt-text](https://avatars2.githubusercontent.com/u/9016001?s=400&u=e577f5ffdde59e630b7d853734d1cb3817864fdf&v=4)
+![alt-text](https://avatars2.githubusercontent.com/u/9016001?s=400&u=e577f5ffdde59e630b7d853734d1cb3817864fdf&v=4#thumbnail)
 
 tyler :+1:
