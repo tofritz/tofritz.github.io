@@ -47,7 +47,7 @@ h1 {
 
 p {
   margin: 1em 0;
-  line-height: 1.2em;
+  line-height: 1.3em;
 }
 
 a {
@@ -56,7 +56,7 @@ a {
 }
 
 ol {
-  margin-left: 3em;
+  margin-left: 2em;
 }
 
 ol li {
@@ -143,7 +143,7 @@ img[src*="#thumbnail"] {
 }
 
 .post p {
-  line-height: 1.2em;
+  line-height: 1.3em;
 }
 
 .post h1,
@@ -186,8 +186,16 @@ code {
   font-family: Monaco, monospace;
   border: 0.05em solid $font-color;
   border-radius: 3px;
-  padding: 0.2em 0.5em;
+  padding: 0.1em 0.5em;
   color: #f1fa8c;
   background-color: #282a36;
   line-height: 1.2em;
+}
+
+pre {
+  margin: 2em;
+}
+
+pre code.hljs {
+  padding: 1em 1em;
 }
