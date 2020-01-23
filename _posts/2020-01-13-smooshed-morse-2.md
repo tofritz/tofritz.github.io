@@ -139,6 +139,6 @@ challenge()
 bonus1()
 ```
 
-The above script was able to process the 1000 smorse inputs in 75.57 seconds. Much faster times have been reported using languages such as Rust, Go, C, Julia, etc. Other solution methods I've seen include building a binary tree to search the string as morse encoding lends itself to this type of search:
+The above script was able to process the 1000 smorse inputs in 75.57 seconds. Much faster times have been reported using languages such as Rust, Go, C, Julia, etc. Other solution methods I've seen include implementing a search [trie](https://www.geeksforgeeks.org/trie-insert-and-search/) string as morse encoding lends itself to this type of search:
 
 ![alt-text](https://www.researchgate.net/profile/Cleve_Moler/publication/265536380/figure/fig49/AS:669567332388876@1536648700580/The-binary-tree-defining-Morse-code-A-branch-to-the-left-signifies-a-dot-in-the-code.png)
