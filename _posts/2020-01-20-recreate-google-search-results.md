@@ -3,7 +3,7 @@ layout: post
 title:  "recreating the google search results page"
 author: tyler
 date:   2020-01-20 20:00:00 -0600
-categories: html css
+categories: html css odin
 ---
 
 One of the first projects that is encountered in the [Odin Project](https://www.theodinproject.com/) curriculum is to attempt to recreate the www.google.com homepage. This project is part of the `Web Dev 101` course and is intended to be hands-on introduction to basic `HTML` and `CSS` syntax and structure.
