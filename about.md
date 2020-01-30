@@ -9,12 +9,12 @@ a personal website
 _**resume**_
 -
 
-the latest version can be found [here](https://app.box.com/s/u7oxc33fjrroewypys8ynn92knxzbxxs).
+The latest version can be found [here](https://app.box.com/s/u7oxc33fjrroewypys8ynn92knxzbxxs).
 
 _**portfolio**_
 -
 
-the best way to see what i am up to would through my posts of the [home page](https://tofritz.github.io). i would suggest perusing my github [repositories](https://www.github.com/tofritz) to see the details of the various things i am working on and have done in the past. i would suggest looking in `example-work` for various deliverables i've produced. if you're interested in seeing some finished map products, you can see some [here](https://github.com/tofritz/example-work/tree/master/Maps) that were produced with ESRI software during my GIS certification.
+The best way to see what i am up to would through my posts of the [home page](https://tofritz.github.io). I would suggest perusing my github [repositories](https://www.github.com/tofritz) to see the details of the various things I am working on and have done in the past. I would suggest looking in `example-work` for various deliverables I've produced. If you're interested in seeing some finished map products, you can see some [here](https://github.com/tofritz/example-work/tree/master/Maps) that were produced with ESRI software during my GIS certification.
 
 _**goals**_
 -
