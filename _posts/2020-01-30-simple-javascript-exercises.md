@@ -2,7 +2,7 @@
 layout: post
 title:  "simple javascript exercises"
 author: tyler
-date:   YYYY-MM-DD HH:MM:SS -0600
+date:   2020-01-30 18:00:00 -0600
 categories: odin javascript
 ---
 
