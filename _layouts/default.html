@@ -18,9 +18,12 @@
     </script>
   </head>
   <body>
-    {% include navigation.html %}
-    <div class="default">
-      {{ content }}
+    <div class="viewport">
+      {% include navigation.html %}
+      <div class="content">
+        {{ content }}
+      </div>
+      {% include footer.html %}
     </div>
   </body>
 </html>
