@@ -3,7 +3,7 @@
 $theme-color: #f5b428 !default;
 $theme-color-light: lighten($theme-color, 10%) !default;
 $theme-color-dark: darken($theme-color, 25%) !default;
-$theme-color-alt-a: #d14 !default;
+$theme-color-alt-a: rgb(242, 81, 121) !default;
 $theme-color-alt-b: #5adbff !default;
 $background-color: #222 !default;
 $background-color-light: lighten($background-color, 10%) !default;
