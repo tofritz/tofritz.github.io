@@ -5,7 +5,7 @@ $theme-color-light: lighten($theme-color, 10%) !default;
 $theme-color-dark: darken($theme-color, 25%) !default;
 $theme-color-alt-a: rgb(242, 81, 121) !default;
 $theme-color-alt-b: #5adbff !default;
-$background-color: #222 !default;
+$background-color: #181a1b !default;
 $background-color-light: lighten($background-color, 10%) !default;
 $background-color-dark: darken($background-color, 4%) !default;
 $font-color: #f3f3f3 !default;
@@ -23,7 +23,10 @@ body {
 }
 
 body {
-  font: 14px Helvetica, Arial, clean, sans-serif;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: $font-color;
   background-color: $background-color;
 }
@@ -54,6 +57,10 @@ a {
 
 a:hover {
   color: $theme-color;
+}
+
+ul {
+  padding-inline-start: 40px;
 }
 
 /* navigation bar */
@@ -114,8 +121,8 @@ ul.blog li {
 
 ul.blog span {
   color: $date-color;
-  font-family: Monaco;
-  font-size: 80%;
+  font-size: 100%;
+  font-family: "Ubuntu Mono", monospace;
 }
 
 ul.task-list {
@@ -132,13 +139,31 @@ img[src*="#thumbnail"] {
 
 /* about */
 
-/* post */
+/* date & arrow formatting */
 
 .post div#title span {
-  color: #aaaaaa;
-  font-family: Monaco;
-  font-size: 80%;
+  color: $date-color;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 100%;
 }
+
+div#title span {
+  padding-right: 0.3em;
+}
+
+div#title h1 {
+  padding-left: 0.3em;
+}
+
+.blog li span {
+  padding-right: 0.3em;
+}
+
+.blog li a {
+  padding-left: 0.3em;
+}
+
+/* post */
 
 .post div {
   display: block;
@@ -205,11 +230,11 @@ p img {
 /* code formatting */
 
 code {
-  font-size: 70%;
-  font-family: Monaco, monospace;
-  border: 0.05em solid $font-color;
+  font-size: 80%;
+  font-family: "Inconsolata", monospace;
+  border: 0.05em solid rgb(65, 65, 65);
   border-radius: 3px;
-  padding: 0.1em 0.5em;
+  padding: 0.1em 0.5em 0.2em 0.5em;
   color: #f1fa8c;
   background-color: #282a36;
   line-height: 1.2em;
