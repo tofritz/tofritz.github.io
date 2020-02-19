@@ -9,7 +9,7 @@ a personal website
 _**resume**_
 -
 
-The latest version can be found [here](https://app.box.com/s/u7oxc33fjrroewypys8ynn92knxzbxxs).
+The latest version can be found [here](https://app.box.com/s/q4uia10emab7g620h787l7nxqbzfmva2).
 
 _**portfolio**_
 -
