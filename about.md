@@ -14,7 +14,7 @@ The latest version can be found [here](https://app.box.com/s/q4uia10emab7g620h78
 _**portfolio**_
 -
 
-The best way to see what I am up to would through my posts of the [home page](https://tofritz.github.io). I suggest perusing my github [repositories](https://github.com/tofritz?tab=repositories) to see the details of the things I am working on and have done in the past. I would suggest looking in `example-work` for various deliverables I've produced. If you're interested in seeing some finished map products, you can see some [here](https://github.com/tofritz/example-work/tree/master/pennstate-maps) that were produced with ESRI software during my GIS certification.
+The best way to see what I am up to would be through the posts on my [home page](https://tofritz.github.io). I suggest perusing my github [repositories](https://github.com/tofritz?tab=repositories) to see the details of the things I am working on and have done in the past. I would suggest looking in `example-work` for various deliverables I've produced. If you're interested in seeing some finished map products, you can see some [here](https://github.com/tofritz/example-work/tree/master/pennstate-maps) that were produced with ESRI software during my GIS certification.
 
 _**goals**_
 -
