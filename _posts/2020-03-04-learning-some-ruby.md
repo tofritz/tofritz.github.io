@@ -51,7 +51,7 @@ end
 ```
 
 
-In addition to the exercises from the `learn_ruby` repository, I solved the first three [Project Euler](https://projecteuler.net/) problems using Ruby. Here is the third:
+In addition to the exercises from the `learn_ruby` repository, I solved the first three [Project Euler](https://projecteuler.net/) problems using Ruby. They are found in the practice-exercises folder of `example-work`. Here is the third:
 ```ruby
 def largest_prime_factor number
     if number < 1  
