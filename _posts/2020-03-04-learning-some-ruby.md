@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "title goes here"
+title:  "learning some ruby"
 author: tyler
-date:   YYYY-MM-DD HH:MM:SS -0600
+date:   2020-03-04 18:00:00 -0600
 categories: odin ruby practice
 ---
 
