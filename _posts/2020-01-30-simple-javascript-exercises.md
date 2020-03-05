@@ -3,7 +3,7 @@ layout: post
 title:  "simple javascript exercises"
 author: tyler
 date:   2020-01-30 18:00:00 -0600
-categories: odin javascript
+categories: odin javascript practice
 ---
 
 I've encountered some smaller exercises in the sub-chapters on the fundamentals of JavaScript during my progress in the `Web Dev 101` coursework of the Odin Project. I've included my solutions here and added the functions that may have usefulness to my `functions.js` "library" in my `scripts` repository. These were pretty simple, but I could have constructed some more elegantly with better formatting of my conditional logic. These exercises were a good way to introduce the `jasmine` JavaScript testing framework. It's much more efficient to design a battery of tests to check the output of a script than just freestyling something while concurrently feeding it inputs to see if its behaving the way you hope.
