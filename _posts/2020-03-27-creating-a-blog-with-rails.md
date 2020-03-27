@@ -2,7 +2,7 @@
 layout: post
 title:  "a blog using rails & heroku deployment"
 author: tyler
-date:   2020-03-027 18:00:00 -0600
+date:   2020-03-27 18:00:00 -0600
 categories: odin ruby rails
 ---
 
